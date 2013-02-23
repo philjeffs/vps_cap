@@ -8,6 +8,7 @@ load "config/recipes/postgresql"
 load "config/recipes/rbenv"
 load "config/recipes/check"
 load "config/recipes/elasticsearch"
+load "config/recipes/node"
 
 server "198.211.97.233", :web, :app, :db, primary: true
 
