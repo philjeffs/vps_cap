@@ -15,3 +15,6 @@ sudo visudo
 ## Update OS
 
 sudo apt-get update
+
+## Disable UFW
+sudo ufw disable

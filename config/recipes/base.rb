@@ -13,5 +13,6 @@ namespace :deploy do
     run "#{sudo} apt-get -y update"
     run "#{sudo} apt-get -y install python-software-properties"
     run "#{sudo} apt-get -y install software-properties-common"
+    run "#{sudo} apt-get -y install ufw"
   end
 end
